@@ -1,0 +1,12 @@
+name: craftlink
+version: '${project.version}'
+main: pl.igorstec.craftlink.Craftlink
+api-version: '1.20'
+author: Igor Stec
+website: igorstec.pl
+
+commands:
+  craftlink:
+    description: Craftlink plugin commands
+    permission: craftlink
+    permission-message: "§cYou do not have permission to use this command."

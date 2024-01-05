@@ -1,0 +1,33 @@
+# Craftlink plugin configuration
+# Plugin author: igorstec.pl
+
+#
+# Typical configuration
+#
+
+
+# Enter the IP address of your server below
+# For example: 192.168.0.9, 127.0.0.1
+server_ip: 127.0.0.1
+
+# Enter the name of your server below
+# For example: Hypixel, Kaktusownia, MinePlex
+server_name: 127.0.0.1
+
+# Enter the data allowed to be read by the bot
+# Available data: "running", "tps", "playersCount", "playersList"
+shared_data:
+  - running
+  - tps
+
+#
+# Special configuration
+# You probably don't want to change it
+#
+
+# Enter the server address of the craftlink provider
+provider_ip: 104.21.90.213
+
+# Random security key for your application
+security_key: ""
+
